@@ -1,0 +1,40 @@
+@media (max-width: 660px) {
+  #nav-bar .nav-container ul li {
+    display: block;
+  }
+
+  #nav-bar .nav-container ul li a {
+    padding: 0.2rem;
+    font-size: 0.8rem;
+  }
+
+  #users .users-container {
+    grid-template-columns: 1fr;
+  }
+
+  #users .users-container *:first-child {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  #users .users-container *:last-child {
+    grid-column: 1;
+  }
+  
+  .card {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #show-case .showcase-container h1 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 150px;
+  }
+
+  #show-case .showcase-container *:nth-child(2) {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+}
